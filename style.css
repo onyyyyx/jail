@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.animated-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.animated-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  border-radius: 10px;
