@@ -102,5 +102,8 @@ function verify() {
    }
    else {
       document.getElementById("output").innerHTML="Access denied";
+       setTimeout(() => {
+         document.getElementById("output").innerHTML="";
+       },1000)
    }
 }
