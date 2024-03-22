@@ -97,7 +97,7 @@ var sha256 = function sha256(ascii) {
 
 function verify() {
    input=sha256(document.getElementById("input").value);
-   if(input=="98443dd8bccea785bedd61704e0deee54db10f3a6fbe828471f1e907603faf9d") {
+   if(input=="5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8") {
       document.getElementById("output").innerHTML="Welcome";
    }
    else {
